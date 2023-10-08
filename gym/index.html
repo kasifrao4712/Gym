@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap Gym</title>
+</head>
+
+    <style>
+        body{ 
+            font-family: cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(img1.jpeg);
+            opacity: 0.1px;
+            z-index: -1;
+            
+            
+           
+        }
+        .left img{
+            width: 136px;
+        }
+        .left div{
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+        .left{
+            display: inline-block;
+            
+            position: absolute;
+            left: 60px;
+            top: 10px;
+        }
+        .mid{
+            display: block;
+            width: 50%;
+            
+            margin: 12px auto;
+          
+        }
+        
+        
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 10px;
+            display: inline-block;
+           
+        }
+        .navbar li{
+            display: inline-block;
+            text-decoration: none;
+
+        }
+        .navbar li a{
+            color: red;
+            text-decoration: none;
+            padding: 38px;
+            font-size: 25px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: blue;
+        }
+        .btn{
+            font-family: cursive;
+            margin: 9pxpx 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            color: blue;
+        }
+        .container{
+           
+            margin: 300px 800px;
+            padding: 100px 100px;
+            width: 45%;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+       .form-group input{
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        font-size: 25px;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-family: cursive;
+        
+       }
+       .container h1{
+        text-align: center;
+        color: pink;
+
+       }
+       .container button{
+        display: block;
+        margin: 20px auto;
+
+       }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+        <img src="img2.jpg" alt="" srcset="">
+        <div>Harry Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact US</a></li>
+             </ul>
+        </div>
+        <div class="right">
+ <button class="btn"> Call US Now</button>
+ <button class="btn"> Email US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Delhi</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Phone no">
+            </div>
+            <button class="btn">Submit</button>
+            
+        </form>
+    </div>
+    
+
+    
+</body>
+</html> 
